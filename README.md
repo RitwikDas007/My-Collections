@@ -1,2 +1,2 @@
 # My-Collections
-Things before Git
+<i>Things before Git</i>
