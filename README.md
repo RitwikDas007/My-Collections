@@ -1,2 +1,2 @@
 # My_Collections
-<i>Things before Git</i>
+Some of my special collections from Python3
