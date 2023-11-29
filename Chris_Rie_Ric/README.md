@@ -1,7 +1,7 @@
-A way to calculate the most fundamentals of General Relativistic things.
+Without pen and paper, a way to calculate the Christoffel symbols, Riemann tensors, Ricci tensors and Ricci Scalar.
 
-Needed modules ---
-            <ul>
-               <li>Numpy</li> 
-               <li>Sympy</li>
-            </ul>
+Needed modules --
+<ul>
+            <li>Numpy</li>
+            <li>Sympy</li>
+</ul>
