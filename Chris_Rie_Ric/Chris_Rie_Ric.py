@@ -22,7 +22,7 @@ for i in range(d) :
 	e = input(' {0:g}-th element ---->> '.format(i))
 	coor.append(e)
 
-flag = input("\n Is the metric tensor diagonal ? Press 'ENTER' for Yes and Press 'n' for No\t")
+flag = input("\n Is the metric tensor diagonal ? Press 'y' for Yes and Press 'n' for No\t")
 print('\n Please enter the components\n')
 
 g = np.zeros((d,d),dtype = 'O')
@@ -32,7 +32,7 @@ if flag == 'n' :
 		for j in range(d) :
 			g[i][j] = input(' {0:g}{1:g}-th element ---->> '.format(i,j))
 
-else :
+elif flag == 'y' :
 	for i in range(d) :
 		g[i][i] = input(' {0:g}{1:g}-th element ---->> '.format(i,i))
 
