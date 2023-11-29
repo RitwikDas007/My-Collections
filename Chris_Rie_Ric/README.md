@@ -5,3 +5,9 @@ Needed modules --
             <li>Numpy</li>
             <li>Sympy</li>
 </ul>
+
+To install the modules through terminal,
+<ul>
+            <li><i>pip install numpy</i></li>
+            <li><i>pip install sympy</i></li>
+</ul>
