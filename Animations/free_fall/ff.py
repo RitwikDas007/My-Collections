@@ -6,7 +6,7 @@ a, b, c, x, y = [], [], [], [], []
 
 H = 25					# m
 m = 5					# Kg
-g = 9.81				# m/s**2
+g = 9.81				# m/(s**2)
 animation_interval = 0.1
 
 PE_max = m*g*H
@@ -72,7 +72,7 @@ def animation_plots(i):
 	ax4_KE.set_data(b, x)
 	return ax1_P, ax2_VH,ax3_TV,ax4_PE, ax4_KE,
 
-anim = amt.FuncAnimation(fig, animation_plots, frames = len(t)-1, interval = animation_interval, repeat=False)
+anim = amt.FuncAnimation(fig, animation_plots, frames=len(t)-1, interval=animation_interval, repeat=False)
 
 #Writer = amt.FFMpegWriter(fps=60) 
 #anim.save('ff.mp4', writer=Writer) 
