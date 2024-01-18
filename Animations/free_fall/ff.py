@@ -4,7 +4,7 @@ import matplotlib.animation as amt
 
 a, b, c, x, y = [], [], [], [], []
 
-H = 25					# m
+H = 25					# meter
 m = 5					# Kg
 g = 9.81				# m/(s**2)
 animation_interval = 0.1
